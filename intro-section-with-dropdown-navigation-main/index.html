@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="section-header">
+      <ul class="lists">
+        <a href="#"><img src="images/logo.svg" alt="logo" /></a>
+        <div class="main-nav">
+          <div class="logo-list">
+            <div class="inner-nav">
+              <li class="list">
+                <button class="btn btn-feature">
+                  <span class="margin-right"
+                    >Features
+                    <img
+                      src="images/icon-arrow-down.svg"
+                      alt="arrow down"
+                      class="arr-down-feature" />
+                    <img
+                      src="images/icon-arrow-up.svg"
+                      alt="arrow up"
+                      class="arr-up-feature"
+                  /></span>
+                </button>
+
+                <div class="menu-feature">
+                  <ul class="menu-list">
+                    <li class="menu-item">
+                      <img src="images/icon-todo.svg" alt="todo icon" /> Todo
+                      List
+                    </li>
+                    <li class="menu-item">
+                      <img src="images/icon-calendar.svg" alt="calendar icon" />
+                      Calendar
+                    </li>
+                    <li class="menu-item">
+                      <img
+                        src="images/icon-reminders.svg"
+                        alt="reminder icon"
+                      />
+                      Reminders
+                    </li>
+                    <li class="menu-item">
+                      <img src="images/icon-planning.svg" alt="planning icon" />
+                      Planning
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="list">
+                <button class="btn btn-company">
+                  <span class="margin-right"
+                    >Company
+                    <img
+                      src="images/icon-arrow-down.svg"
+                      alt="arrow down"
+                      class="arr-down-company" />
+                    <img
+                      src="images/icon-arrow-up.svg"
+                      alt="arrow up"
+                      class="arr-up-company"
+                  /></span>
+                </button>
+                <div class="menu-company">
+                  <ul class="menu-list">
+                    <li class="menu-item">History</li>
+                    <li class="menu-item">Our Team</li>
+                    <li class="menu-item">Blog</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="list"><a href="#" class="nav-link">Careers</a></li>
+              <li class="list"><a href="#" class="nav-link">About</a></li>
+            </div>
+            <div class="inner-nav">
+              <li class="list"><a href="#" class="nav-link">Login</a></li>
+              <li class="list">
+                <a href="#" class="nav-link"
+                  ><span class="reg-btn">Register</span></a
+                >
+              </li>
+            </div>
+          </div>
+        </div>
+        <button class="menu-btn">
+          <img
+            src="images/icon-menu.svg"
+            alt="mobile-menu-icon"
+            class="menu-open-icon"
+          />
+          <img
+            src="images/icon-close-menu.svg"
+            alt="mobile-menu-icon"
+            class="menu-close-icon"
+          />
+        </button>
+      </ul>
+    </header>
+    <section class="hero-section">
+      <div class="container">
+        <div class="grid grid--2-cols">
+          <div class="heading-box">
+            <h1 class="heading-primary">Make remote work</h1>
+            <p class="hero-text">
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <button class="btn--hero">Learn more</button>
+            <ul class="icon-lists">
+              <li class="icon-list-item">
+                <img src="images/client-databiz.svg" alt="databiz" />
+              </li>
+              <li class="icon-list-item">
+                <img src="images/client-audiophile.svg" alt="audiophile" />
+              </li>
+              <li class="icon-list-item">
+                <img src="images/client-meet.svg" alt="meet" />
+              </li>
+              <li class="icon-list-item">
+                <img src="images/client-maker.svg" alt="maker" />
+              </li>
+            </ul>
+          </div>
+          <div class="img-box">
+            <img
+              class="hero-desktop"
+              src="images/image-hero-desktop.png"
+              alt="hero image"
+            />
+            <img
+              class="hero-mobile"
+              src="images/image-hero-mobile.png"
+              alt="hero image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/arjunr666/" target="_blank">Arjun</a>.
+    </div>
+  </body>
+</html>
